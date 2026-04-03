@@ -21,8 +21,8 @@ export default function CTA() {
               <span className="gradient-text">la tua carriera?</span>
             </h2>
             <p className="text-lg text-gray-400 max-w-xl mx-auto mb-8">
-              Unisciti alla lista d&apos;attesa di Joinly. Accesso anticipato per i
-              primi 1.000 iscritti con features premium gratuite per 3 mesi.
+              Crea il tuo account Joinly gratuitamente e inizia a costruire il tuo portfolio,
+              espandere il network e collaborare su progetti reali.
             </p>
 
             {/* Email form */}
@@ -36,7 +36,7 @@ export default function CTA() {
                 className="flex-1 px-4 py-3 rounded-full bg-brand-dark border border-brand-dark-border text-white placeholder-gray-500 focus:outline-none focus:border-brand-purple transition-colors text-sm"
               />
               <button type="submit" className="btn-primary py-3 px-6 text-sm whitespace-nowrap">
-                Accesso Anticipato ✨
+                Registrati Gratis ✨
               </button>
             </form>
 
@@ -49,8 +49,8 @@ export default function CTA() {
               {[
                 '✓ Portfolio illimitato',
                 '✓ Accesso a tutti i Circles',
-                '✓ 3 mesi Joinly Pro gratis',
-                '✓ Badge "Early Adopter"',
+                '✓ Network con freelance e creativi',
+                '✓ Collabora su progetti reali',
               ].map((feature, i) => (
                 <span key={i} className="text-sm text-gray-400">
                   {feature}
